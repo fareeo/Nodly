@@ -88,13 +88,6 @@ The generated APK will be available at:
 
 ---
 
-## 📥 Download Final Release
-
-Click below to download the compiled v1.0.0 APK right to your Android device:
-
-[![Download APK](https://img.shields.io/badge/DOWNLOAD_APK-00897B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/fareeo/Nodly/releases/latest/download/app-release.apk)
-
-*(Alternatively, you can download `app-release.apk` directly from the `releases/` folder in this repository).*
 
 ---
 
