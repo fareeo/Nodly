@@ -4,7 +4,7 @@
   <p><b>A Daily Quick Things-to-Do App</b></p>
 
   <a href="https://github.com/fareeo/Nodly/releases/latest/download/app-release.apk">
-    <img src="https://img.shields.io/badge/Download_APK-Final_Release_v1.0.0-00897B?style=for-the-badge&logo=android&logoColor=white" alt="Download Final Release APK"/>
+    <img src="https://img.shields.io/badge/DOWNLOAD_APK-00897B?style=for-the-badge&logo=android&logoColor=white" alt="Download APK"/>
   </a>
   <br/>
   <p>
@@ -92,7 +92,7 @@ The generated APK will be available at:
 
 Click below to download the compiled v1.0.0 APK right to your Android device:
 
-[![Download APK](https://img.shields.io/badge/Download_APK-Final_Release_v1.0.0-00897B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/fareeo/Nodly/releases/latest/download/app-release.apk)
+[![Download APK](https://img.shields.io/badge/DOWNLOAD_APK-00897B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/fareeo/Nodly/releases/latest/download/app-release.apk)
 
 *(Alternatively, you can download `app-release.apk` directly from the `releases/` folder in this repository).*
 
