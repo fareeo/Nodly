@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/NodlyLogo2.png" width="120" alt="Nodly Logo" />
   <h1>Nodly</h1>
-  <p><b>A Daily Quick Things-to-Do & Notes App</b></p>
+  <p><b>A Daily Quick Things-to-Do App</b></p>
 
   <a href="https://github.com/fareeo/Nodly/releases/latest/download/app-release.apk">
     <img src="https://img.shields.io/badge/Download_APK-Final_Release_v1.0.0-00897B?style=for-the-badge&logo=android&logoColor=white" alt="Download Final Release APK"/>
@@ -17,6 +17,8 @@
 ## 🌟 Overview
 
 **Nodly** is an elegant, lightning-fast daily task and quick-note application designed to keep your focus sharp and your day organized. Built with **Flutter**, Nodly combines state-of-the-art aesthetics with intuitive micro-animations, customizable typography, smart notifications, and native home screen integration.
+
+!!!FULLY AI GENERATED, TESTED MANUALLY ONLY IN ANDROID!!!
 
 ---
 
