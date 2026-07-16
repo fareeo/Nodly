@@ -1,0 +1,43 @@
+name: nodly
+description: "A daily quick things to do app."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+  intl: ^0.20.0
+  uuid: ^4.5.1
+  google_fonts: ^6.2.1
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+  dynamic_color: ^1.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/NodlyLogo2.png"
+  adaptive_icon_background: "#00897B"
+  adaptive_icon_foreground: "assets/NodlyLogo2_foreground.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+  fonts:
+    - family: RobotoCondensed
+      fonts:
+        - asset: assets/fonts/RobotoCondensed-VariableWeight.ttf
+        - asset: assets/fonts/RobotoCondensed-ItalicVariableWeight.ttf
+          style: italic
