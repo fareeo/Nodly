@@ -87,12 +87,10 @@ The generated APK will be available at:
 
 ---
 
-## 📲 Installation on iPhone (iOS)
+## 📲 Installation on iPhone
 
-To run **Nodly** on your physical iPhone, follow these instructions:
+To run **Nodly** on your iPhone, follow these instructions:
 
-> [!NOTE]
-> The `ios/` project folder is now included right in the repository! If you ever need to regenerate or refresh iOS platform files on your Mac, simply run `flutter create --platforms=ios .` in the project root.
 
 ### Method 1: Build & Run via Mac & Xcode (Free)
 1. **Connect your iPhone**: Plug your iPhone into your Mac via USB/Lightning cable and tap **Trust This Computer** on your phone screen.
@@ -106,7 +104,7 @@ To run **Nodly** on your physical iPhone, follow these instructions:
    open Runner.xcworkspace
    ```
 3. **Select your Apple ID**: In Xcode, click the top **Runner** project in the left sidebar > click the **Signing & Capabilities** tab > select your personal Apple ID under **Team** (Xcode automatically generates a free developer provisioning profile).
-4. **Build & Install to iPhone**: Select your connected physical iPhone from Xcode's top device target dropdown and press `Cmd + R` (**Play / Run** button), **OR** run from your terminal:
+4. **Build & Install to iPhone**: Select your connected iPhone from Xcode's top device target dropdown and press `Cmd + R` (**Play / Run** button), **OR** run from your terminal:
    ```bash
    cd ..
    flutter run -d <your-iphone-device-id>
