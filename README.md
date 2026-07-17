@@ -22,20 +22,13 @@
 
 ### 📸 Screenshots
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center"><img src="assets/screenshots/1.png" width="200" alt="Home Screen"/><br/><sub><b>Home</b></sub></td>
-      <td align="center"><img src="assets/screenshots/2.png" width="200" alt="Create Dialog"/><br/><sub><b>Create</b></sub></td>
-      <td align="center"><img src="assets/screenshots/3.png" width="200" alt="Edit Dialog"/><br/><sub><b>Edit & Move</b></sub></td>
-    </tr>
-    <tr>
-      <td align="center"><img src="assets/screenshots/4.png" width="200" alt="Swipe Done"/><br/><sub><b>Swipe → Done</b></sub></td>
-      <td align="center"><img src="assets/screenshots/5.png" width="200" alt="Swipe Delete"/><br/><sub><b>Swipe ← Delete</b></sub></td>
-      <td></td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <img src="assets/screenshots/1.png" width="180" alt="Home Screen" />
+  <img src="assets/screenshots/2.png" width="180" alt="Create Dialog" />
+  <img src="assets/screenshots/3.png" width="180" alt="Edit Dialog" />
+  <img src="assets/screenshots/4.png" width="180" alt="Swipe Done" />
+  <img src="assets/screenshots/5.png" width="180" alt="Swipe Delete" />
+</p>
 
 ---
 
