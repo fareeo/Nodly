@@ -89,26 +89,44 @@ The generated APK will be available at:
 
 ## 📲 Installation on iPhone (iOS)
 
-To run **Nodly** on your iPhone, use one of the two simple methods below:
+To run **Nodly** on your physical iPhone, follow these instructions:
 
-### Method 1: Sideloading via Mac & Xcode (Free)
-1. **Connect your iPhone** to your Mac via USB/Lightning cable and select **Trust This Computer** on your phone screen.
-2. **Open Workspace**:
+> [!NOTE]
+> The `ios/` project folder is now included right in the repository! If you ever need to regenerate or refresh iOS platform files on your Mac, simply run `flutter create --platforms=ios .` in the project root.
+
+### Method 1: Build & Run via Mac & Xcode (Free)
+1. **Connect your iPhone**: Plug your iPhone into your Mac via USB/Lightning cable and tap **Trust This Computer** on your phone screen.
+2. **Prepare & Open Xcode**:
    ```bash
+   # Ensure dependencies and iOS folder are ready
+   flutter pub get
+   
+   # Open the iOS workspace in Xcode
    cd ios
    open Runner.xcworkspace
    ```
-3. **Select your Apple ID**: In Xcode, click the **Runner** project > **Signing & Capabilities** tab > select your personal Apple ID under **Team** (creates a free developer provisioning profile).
-4. **Build & Install**: Select your physical iPhone from the top device menu and hit `Cmd + R` (or run `flutter run -d <device-id>` in your terminal).
-5. **Trust on iPhone**: Once installed, unlock your iPhone, go to **Settings** > **General** > **VPN & Device Management**, tap your Apple ID certificate, and select **Trust**. Launch Nodly!
+3. **Select your Apple ID**: In Xcode, click the top **Runner** project in the left sidebar > click the **Signing & Capabilities** tab > select your personal Apple ID under **Team** (Xcode automatically generates a free developer provisioning profile).
+4. **Build & Install to iPhone**: Select your connected physical iPhone from Xcode's top device target dropdown and press `Cmd + R` (**Play / Run** button), **OR** run from your terminal:
+   ```bash
+   cd ..
+   flutter run -d <your-iphone-device-id>
+   ```
+5. **Trust the Certificate on iPhone**: Once installed, unlock your iPhone, go to **Settings** > **General** > **VPN & Device Management**, tap your Apple ID certificate, and select **Trust**. Launch Nodly!
 
 ---
 
 ### Method 2: Sideloading `.ipa` via Sideloadly / AltStore (Windows or Mac)
-1. Download and install [Sideloadly](https://sideloadly.io/) or [AltStore](https://altstore.io/) on your Windows PC or Mac.
-2. Connect your iPhone via USB and open Sideloadly or AltStore.
-3. Drag and drop the `Nodly.ipa` file into the sideloading tool, enter your Apple ID, and click **Start**.
-4. Go to **Settings** > **General** > **VPN & Device Management** on your iPhone and tap **Trust** on your Apple ID certificate to start using Nodly.
+If you want to install via sideloading tools like **Sideloadly** or **AltStore**:
+1. **Build the `.ipa` package** (on a Mac with Flutter/Xcode):
+   ```bash
+   flutter build ipa --no-codesign
+   ```
+   *(Or export a signed `.ipa` directly from Xcode via **Product > Archive**).*
+2. **Install via Sideloadly / AltStore**:
+   - Download and open [Sideloadly](https://sideloadly.io/) or [AltStore](https://altstore.io/) on your Windows PC or Mac.
+   - Connect your iPhone via USB.
+   - Drag and drop the compiled `.ipa` file into Sideloadly/AltStore, enter your Apple ID, and click **Start**.
+3. **Trust on iPhone**: Go to **Settings** > **General** > **VPN & Device Management** on your iPhone and tap **Trust** on your Apple ID certificate to launch Nodly.
 
 ---
 
