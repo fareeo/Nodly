@@ -22,7 +22,13 @@
 
 ### 📸 Screenshots
 
-![Home Screen](assets/screenshots/1.png) ![Create Dialog](assets/screenshots/2.png) ![Edit Dialog](assets/screenshots/3.png) ![Swipe Done](assets/screenshots/4.png) ![Swipe Delete](assets/screenshots/5.png)
+<p align="center">
+  <img src="assets/screenshots/1.png" width="130" alt="Home Screen" />&nbsp;&nbsp;
+  <img src="assets/screenshots/2.png" width="130" alt="Create Dialog" />&nbsp;&nbsp;
+  <img src="assets/screenshots/3.png" width="130" alt="Edit Dialog" />&nbsp;&nbsp;
+  <img src="assets/screenshots/4.png" width="130" alt="Swipe Done" />&nbsp;&nbsp;
+  <img src="assets/screenshots/5.png" width="130" alt="Swipe Delete" />
+</p>
 
 
 ---
