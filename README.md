@@ -87,9 +87,6 @@ The generated APK will be available at:
 
 ---
 
-
----
-
 <div align="center">
   <p>Made by <b>fareeo</b></p>
 </div>
